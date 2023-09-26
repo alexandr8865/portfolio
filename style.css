@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: "Manrope", sans-serif;
+  color: #dedede;
 }
 
 header {
@@ -43,4 +44,67 @@ main {
   top: 0;
   left: 0;
   z-index: -1;
+  padding-top: 209px;
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  gap: 150px;
+}
+
+.info__photo {
+  width: 400px;
+  height: 400px;
+}
+
+.info__photo img {
+  height: auto;
+  width: 100%;
+  border: 0 solid transparent;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 64px;
+  word-wrap: break-word;
+}
+
+.info__text {
+  width: 540px;
+}
+
+.info__text p {
+  margin-top: 24px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  word-wrap: break-word;
+  color: #959595;
+}
+.info__mail {
+  font-size: 18px;
+  font-weight: 600;
+  gap: 16px;
+  margin-top: 104px;
+  display: flex;
+  align-items: center;
+  padding: 16px 48px;
+  background-color: #9d9d9d;
+  border: 2px solid transparent;
+  border-radius: 4px;
+}
+
+.info__arrow {
+  margin-top: 161px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  padding: 8px 8px;
+  gap: 32px;
 }
