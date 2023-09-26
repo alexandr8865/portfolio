@@ -9,19 +9,38 @@
 header {
   height: 80px;
   max-width: 100%;
-  background-color: #323232b2;
+  font-size: 18px;
+  font-weight: 700;
   padding-left: 96px;
   padding-right: 109px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: #dedede;
+  background: rgba(49.94, 49.94, 49.94, 0.7);
+  backdrop-filter: blur(20px);
 }
 
 .logo {
-  color: #dedede;
   font-size: 20px;
   font-weight: 800;
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+header div a {
+  margin-left: 60px;
+  text-decoration: none;
+  color: #dedede;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+  background-color: #292929;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
